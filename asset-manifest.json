@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/lsit/static/css/main.073c9b0a.css",
-    "main.js": "/lsit/static/js/main.ef8c1001.js",
+    "main.js": "/lsit/static/js/main.642b556a.js",
     "static/media/get-in-touch-animate.svg": "/lsit/static/media/get-in-touch-animate.bd3ecdac7f5d1c7ce5ee2a94466d6ecb.svg",
     "static/media/experts-animation.svg": "/lsit/static/media/experts-animation.6f88d0f68dceb5e821517c26c7d34112.svg",
     "index.html": "/lsit/index.html",
     "main.073c9b0a.css.map": "/lsit/static/css/main.073c9b0a.css.map",
-    "main.ef8c1001.js.map": "/lsit/static/js/main.ef8c1001.js.map"
+    "main.642b556a.js.map": "/lsit/static/js/main.642b556a.js.map"
   },
   "entrypoints": [
     "static/css/main.073c9b0a.css",
-    "static/js/main.ef8c1001.js"
+    "static/js/main.642b556a.js"
   ]
 }
