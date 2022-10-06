@@ -9,10 +9,10 @@ const Routes = () => {
     <Router>
         <Route exact path="/" element={<Navigate replace to="/lsit" />} />
         <Route exact path="/lsit" element={<Home  />} />
-        <Route exact path="/services/staff" element={<Staff />} />
-        <Route exact path="/services/development" element={<Development />} />
-        <Route exact path="/services/digital" element={<Digital />} />
-        <Route exact path="/contact" element={<Contact />} />
+        <Route exact path="/lsit/services/staff" element={<Staff />} />
+        <Route exact path="/lsit/services/development" element={<Development />} />
+        <Route exact path="/lsit/services/digital" element={<Digital />} />
+        <Route exact path="/lsit/contact" element={<Contact />} />
     </Router>
   )
 }

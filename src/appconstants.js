@@ -11,21 +11,21 @@ export const navMenu = [
         dropdownMenu:[
           {
             label: 'Staff',
-            path: '/services/staff'
+            path: '/lsit/services/staff'
           },
           {
             label: 'Digital',
-            path: '/services/digital',
+            path: '/lsit/services/digital',
           },
           {
             label: 'Development',
-            path: '/services/development'
+            path: '/lsit/services/development'
           }
         ]
     },
     {
         label: 'Contact',
-        path: '/contact',
+        path: '/lsit/contact',
         dropdown: false
     }
 ];
