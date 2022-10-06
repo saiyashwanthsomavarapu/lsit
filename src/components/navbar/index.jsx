@@ -83,9 +83,16 @@ const DrawerAppBar = (props) => {
                 <Button
                   id={`demo-customized-button-${i}`}
                   onClick={(e)=>handleClick(e, item?.dropdown)}
+                  disableFocusRipple={true}
+                  disableRipple={false}
+                  disableElevation={true}
                   aria-controls={item?.dropdown && `demo-customized-${i}`}
                   key={item?.label}
-                  sx={{ color: "#000" }}
+                  sx={{ color: "#000",
+                  '&:hover':{
+                    backgroundColor: "white"
+                  }
+                }}
                 >
                   {item?.path != '' ? <Linker to={item?.path} style={{ textDecoration: "none" }}>
                     {item?.label}
