@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/saiyashwanthsomavarapu/lsit/static/css/main.073c9b0a.css",
-    "main.js": "/saiyashwanthsomavarapu/lsit/static/js/main.79363bfd.js",
-    "static/media/get-in-touch-animate.svg": "/saiyashwanthsomavarapu/lsit/static/media/get-in-touch-animate.bd3ecdac7f5d1c7ce5ee2a94466d6ecb.svg",
-    "index.html": "/saiyashwanthsomavarapu/lsit/index.html",
-    "main.073c9b0a.css.map": "/saiyashwanthsomavarapu/lsit/static/css/main.073c9b0a.css.map",
-    "main.79363bfd.js.map": "/saiyashwanthsomavarapu/lsit/static/js/main.79363bfd.js.map"
+    "main.css": "/lsit/static/css/main.073c9b0a.css",
+    "main.js": "/lsit/static/js/main.f00dd108.js",
+    "static/media/get-in-touch-animate.svg": "/lsit/static/media/get-in-touch-animate.bd3ecdac7f5d1c7ce5ee2a94466d6ecb.svg",
+    "index.html": "/lsit/index.html",
+    "main.073c9b0a.css.map": "/lsit/static/css/main.073c9b0a.css.map",
+    "main.f00dd108.js.map": "/lsit/static/js/main.f00dd108.js.map"
   },
   "entrypoints": [
     "static/css/main.073c9b0a.css",
-    "static/js/main.79363bfd.js"
+    "static/js/main.f00dd108.js"
   ]
 }
