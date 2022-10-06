@@ -1,8 +1,8 @@
 import { Box, Button, Container, Grid, Typography } from '@mui/material'
 import React from 'react'
 import { banners, SERVICES } from '../../appconstants';
-import Experts  from '../../assets/experts';
-// import Experts  from '../../assets/experts-animate.svg';
+// import Experts  from '../../assets/experts';
+import Experts  from '../../assets/experts-animation.svg';
 import Breadcurmbs from '../../components/Breadcrumbs';
 import Carousel from '../../components/carosule'
 import Image from '../../components/Image'
