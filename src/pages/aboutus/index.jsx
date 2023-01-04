@@ -2,7 +2,7 @@ import { Box, Grid, Typography } from "@mui/material";
 import React from "react";
 import { Subheading } from "../home/styles";
 // import Values from '../../assets/values.svg'
-import Communite from '../../assets/communite.svg'
+// import Communite from '../../assets/communite.svg'
 
 const AboutUs = () => {
   return (
