@@ -3,7 +3,6 @@ import React from 'react'
 import { banners, SERVICES } from '../../appconstants';
 // import Experts  from '../../assets/experts';
 import Experts  from '../../assets/experts-animation.svg';
-import Breadcurmbs from '../../components/Breadcrumbs';
 import Carousel from '../../components/carosule'
 import Image from '../../components/Image'
 import ServiceCard from '../../components/ServicesCard';
@@ -12,7 +11,6 @@ import { LeftGrid, Subheading } from './styles'
 const Home = () => {
   return (
     <Box>
-        <Breadcurmbs/>
         <Grid container>
             <LeftGrid item xs={12} md={6}>
                 <Typography sx={{

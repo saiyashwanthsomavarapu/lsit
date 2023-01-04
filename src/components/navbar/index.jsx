@@ -58,8 +58,8 @@ const DrawerAppBar = (props) => {
   );
 
   return (
-    <Box sx={{ display: "flex" }}>
-      <Appbar component="nav" position="static">
+    <Box sx={{ display: "flex",  background:'#fff'}}>
+      <Appbar component="nav" position="fixed">
         <Toolbar>
           <IconButton
             color="inherit"
@@ -93,8 +93,9 @@ const DrawerAppBar = (props) => {
                     backgroundColor: "white"
                   }
                 }}
+
                 >
-                  {item?.path != '' ? <Linker to={item?.path} style={{ textDecoration: "none" }}>
+                  {item?.path != '' ? <Linker to={item?.path} target="_blank" style={{ textDecoration: "none" }}>
                     {item?.label}
                   </Linker> : item?.label}
                 </Button>
@@ -112,7 +113,7 @@ const DrawerAppBar = (props) => {
                   >
                     {item?.dropdownMenu.map((menu,id)=>(
                       <MenuItem key={id}>
-                        <Linker to={menu?.path}>{menu.label}</Linker>
+                        <Linker to={menu?.path} target="_blank">{menu.label}</Linker>
                       </MenuItem>                    
                     ))}
                   </Menu>
