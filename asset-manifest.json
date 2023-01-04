@@ -1,18 +1,18 @@
 {
   "files": {
     "main.css": "/lsit/static/css/main.073c9b0a.css",
-    "main.js": "/lsit/static/js/main.7a451d1a.js",
-    "static/media/ditialMarket.svg": "/lsit/static/media/ditialMarket.fb7dc8cc98e26938f9cc383c857307f9.svg",
+    "main.js": "/lsit/static/js/main.f3f95c43.js",
+    "static/media/ditialMarket.svg": "/lsit/static/media/ditialMarket.6f8791ab2a3a4733ff75e928dc7c8ebe.svg",
     "static/media/get-in-touch-animate.svg": "/lsit/static/media/get-in-touch-animate.bd3ecdac7f5d1c7ce5ee2a94466d6ecb.svg",
-    "static/media/stack.svg": "/lsit/static/media/stack.71808fb454e51b9daac56f96cc80775e.svg",
+    "static/media/stack.svg": "/lsit/static/media/stack.11822eed42412bede62c06d7594ed352.svg",
     "static/media/experts-animation.svg": "/lsit/static/media/experts-animation.6f88d0f68dceb5e821517c26c7d34112.svg",
-    "static/media/marketing.svg": "/lsit/static/media/marketing.122f18e74a0223866637ceb0f6f94b25.svg",
+    "static/media/marketing.svg": "/lsit/static/media/marketing.da9ab30a9319540ce0253743fc1e06d6.svg",
     "index.html": "/lsit/index.html",
     "main.073c9b0a.css.map": "/lsit/static/css/main.073c9b0a.css.map",
-    "main.7a451d1a.js.map": "/lsit/static/js/main.7a451d1a.js.map"
+    "main.f3f95c43.js.map": "/lsit/static/js/main.f3f95c43.js.map"
   },
   "entrypoints": [
     "static/css/main.073c9b0a.css",
-    "static/js/main.7a451d1a.js"
+    "static/js/main.f3f95c43.js"
   ]
 }
