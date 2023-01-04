@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/lsit/static/css/main.073c9b0a.css",
-    "main.js": "/lsit/static/js/main.cb6b74db.js",
+    "main.js": "/lsit/static/js/main.7a451d1a.js",
     "static/media/ditialMarket.svg": "/lsit/static/media/ditialMarket.fb7dc8cc98e26938f9cc383c857307f9.svg",
     "static/media/get-in-touch-animate.svg": "/lsit/static/media/get-in-touch-animate.bd3ecdac7f5d1c7ce5ee2a94466d6ecb.svg",
     "static/media/stack.svg": "/lsit/static/media/stack.71808fb454e51b9daac56f96cc80775e.svg",
@@ -9,10 +9,10 @@
     "static/media/marketing.svg": "/lsit/static/media/marketing.122f18e74a0223866637ceb0f6f94b25.svg",
     "index.html": "/lsit/index.html",
     "main.073c9b0a.css.map": "/lsit/static/css/main.073c9b0a.css.map",
-    "main.cb6b74db.js.map": "/lsit/static/js/main.cb6b74db.js.map"
+    "main.7a451d1a.js.map": "/lsit/static/js/main.7a451d1a.js.map"
   },
   "entrypoints": [
     "static/css/main.073c9b0a.css",
-    "static/js/main.cb6b74db.js"
+    "static/js/main.7a451d1a.js"
   ]
 }
