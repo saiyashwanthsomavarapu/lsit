@@ -1,18 +1,19 @@
 {
   "files": {
     "main.css": "/lsit/static/css/main.073c9b0a.css",
-    "main.js": "/lsit/static/js/main.f3f95c43.js",
+    "main.js": "/lsit/static/js/main.b623ce04.js",
     "static/media/ditialMarket.svg": "/lsit/static/media/ditialMarket.6f8791ab2a3a4733ff75e928dc7c8ebe.svg",
     "static/media/get-in-touch-animate.svg": "/lsit/static/media/get-in-touch-animate.bd3ecdac7f5d1c7ce5ee2a94466d6ecb.svg",
     "static/media/stack.svg": "/lsit/static/media/stack.11822eed42412bede62c06d7594ed352.svg",
     "static/media/experts-animation.svg": "/lsit/static/media/experts-animation.6f88d0f68dceb5e821517c26c7d34112.svg",
     "static/media/marketing.svg": "/lsit/static/media/marketing.da9ab30a9319540ce0253743fc1e06d6.svg",
+    "static/media/careers.svg": "/lsit/static/media/careers.63835c8fcca600440517452fe8a64a53.svg",
     "index.html": "/lsit/index.html",
     "main.073c9b0a.css.map": "/lsit/static/css/main.073c9b0a.css.map",
-    "main.f3f95c43.js.map": "/lsit/static/js/main.f3f95c43.js.map"
+    "main.b623ce04.js.map": "/lsit/static/js/main.b623ce04.js.map"
   },
   "entrypoints": [
     "static/css/main.073c9b0a.css",
-    "static/js/main.f3f95c43.js"
+    "static/js/main.b623ce04.js"
   ]
 }
