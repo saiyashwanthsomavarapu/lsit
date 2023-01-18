@@ -1,6 +1,7 @@
 import React from 'react';
 import { Routes as Router, Route, Navigate } from 'react-router-dom';
 import AboutUs from '../pages/aboutus';
+import Careers from '../pages/careers';
 import Contact from '../pages/contact';
 import Home from '../pages/home';
 import { Staff, Digital, Development } from '../pages/services';
@@ -14,6 +15,7 @@ const Routes = () => {
         <Route exact path="/lsit/services/staff" element={<Staff />} />
         <Route exact path="/lsit/services/development" element={<Development />} />
         <Route exact path="/lsit/services/digital" element={<Digital />} />
+        <Route exact path="/lsit/careers" element={<Careers />}/>
         <Route exact path="/lsit/contact" element={<Contact />} />
     </Router>
   )

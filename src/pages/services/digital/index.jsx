@@ -5,10 +5,8 @@ import Marketing from "../../../assets/marketing.svg";
 import DigitalMarket from "../../../assets/ditialMarket.svg";
 import Stack from "../../../assets/stack.svg";
 import ExploreIcon from "@mui/icons-material/Explore";
-import WebhookIcon from '@mui/icons-material/Webhook';
-import InsightsIcon from '@mui/icons-material/Insights';
-import AdbIcon from '@mui/icons-material/Adb';
-import TravelExploreIcon from '@mui/icons-material/TravelExplore';
+import WebhookIcon from "@mui/icons-material/Webhook";
+import InsightsIcon from "@mui/icons-material/Insights";
 const Digital = () => {
   return (
     <>
@@ -25,8 +23,8 @@ const Digital = () => {
             <span style={{ color: "#f4b41a" }}>your Digtal World</span>
           </Typography>
           <p style={{ fontWeight: 200, fontSize: 20 }}>
-            Good ideas makes the company look smart. Great service makes
-            the customer feel smart.
+            Good ideas makes the company look smart. Great service makes the
+            customer feel smart.
           </p>
         </LeftGrid>
         <Grid item xs={12} md={6}>
@@ -129,7 +127,7 @@ const Digital = () => {
                   maxHeight: 100,
                   minHeight: 100,
                   width: 300,
-                  textAlign: 'center'
+                  textAlign: "center",
                 }}
               >
                 <Typography variant="p" style={{ fontWeight: 200 }}>
@@ -186,11 +184,12 @@ const Digital = () => {
                   maxHeight: 100,
                   minHeight: 100,
                   width: 300,
-                  textAlign: 'center'
+                  textAlign: "center",
                 }}
               >
-                <Typography variant="p" style={{ fontWeight: 200, }}>
-                We assemble a team of specialized professionals to address the specific needs of your project as they arise.
+                <Typography variant="p" style={{ fontWeight: 200 }}>
+                  We assemble a team of specialized professionals to address the
+                  specific needs of your project as they arise.
                 </Typography>
               </div>
             </div>
@@ -242,11 +241,12 @@ const Digital = () => {
                   maxHeight: 100,
                   minHeight: 100,
                   width: 300,
-                  textAlign: 'center'
+                  textAlign: "center",
                 }}
               >
-                <Typography variant="p" style={{ fontWeight: 200, }}>
-                Our teams work closely together to ensure your digital assets continue to evolve and deliver a return on your investment. 
+                <Typography variant="p" style={{ fontWeight: 200 }}>
+                  Our teams work closely together to ensure your digital assets
+                  continue to evolve and deliver a return on your investment.
                 </Typography>
               </div>
             </div>
@@ -286,8 +286,7 @@ const Digital = () => {
               marginLeft: "20%",
               marginRight: "20%",
             }}
-          >
-          </Typography>
+          ></Typography>
         </Grid>
         <Grid
           item
@@ -313,7 +312,7 @@ const Digital = () => {
               alignItems: "center",
             }}
           >
-          <img src={DigitalMarket} />
+            <img src={DigitalMarket} />
           </Grid>
           <Grid
             item
@@ -331,31 +330,40 @@ const Digital = () => {
               style={{
                 display: "flex",
                 flexDirection: "column",
-                padding: 10
+                padding: 10,
               }}
             >
-              <Subheading
-                variant="h4"
-                sx={{ fontSize: 30}}
-              >
+              <Subheading variant="h4" sx={{ fontSize: 30 }}>
                 Digital Marketing
               </Subheading>
               <div
                 style={{
                   paddingTop: 20,
-                  maxHeight: 100,
+                  // maxHeight: 100,
                   minHeight: 100,
                   // width: 300,
                   // textAlign: 'center'
                 }}
               >
-                <Typography variant="p" style={{ fontWeight: 200, }}>
-                Digital marketing is an essential advantage for an online company to expand its reach on the market. Businesses can harness the power of the internet to increase their website traffic, improve its visibility on their websites on websites, and also engage customers to increase conversions.
-                <br/><br/>
-                They require a unique brand identity and an unbeatable digital marketing strategy that can propel their business to success with an effective digital presence.
-                <br/><br/>
-                At LSIT, We are an experienced group of digital marketing experts who have experience in developing successful strategies for your business. We can assist you in designing campaigns that produce successful results. Our sophisticated marketing techniques can create deep brand recognition and increase conversions via an increase in website traffic.
-
+                <Typography variant="p" style={{ fontWeight: 200 }}>
+                  Digital marketing is an essential advantage for an online
+                  company to expand its reach on the market. Businesses can
+                  harness the power of the internet to increase their website
+                  traffic, improve its visibility on their websites on websites,
+                  and also engage customers to increase conversions.
+                  <br />
+                  <br />
+                  They require a unique brand identity and an unbeatable digital
+                  marketing strategy that can propel their business to success
+                  with an effective digital presence.
+                  <br />
+                  <br />
+                  At LSIT, We are an experienced group of digital marketing
+                  experts who have experience in developing successful
+                  strategies for your business. We can assist you in designing
+                  campaigns that produce successful results. Our sophisticated
+                  marketing techniques can create deep brand recognition and
+                  increase conversions via an increase in website traffic.
                 </Typography>
               </div>
             </div>
@@ -397,31 +405,27 @@ const Digital = () => {
               style={{
                 display: "flex",
                 flexDirection: "column",
-                padding: 10
+                padding: 10,
               }}
             >
-              <Subheading
-                variant="h4"
-                sx={{ fontSize: 30}}
-              >
+              <Subheading variant="h4" sx={{ fontSize: 30 }}>
                 Technical Services
               </Subheading>
               <div
                 style={{
                   paddingTop: 20,
-                  maxHeight: 100,
+                  // maxHeight: 100,
                   minHeight: 100,
-                  // width: 300,
-                  // textAlign: 'center'
+                  marginLeft: 60
                 }}
               >
-                <Typography variant="p" style={{ fontWeight: 200, }}>
+                <Typography variant="p" style={{ fontWeight: 200, fontSize: 20 }}>
                   <ul>
                     <li>UX/UI Design</li>
                     <li>Graphic Design</li>
-                    <li><TravelExploreIcon />Search Engine Optimization</li>
+                    <li>Search Engine Optimization</li>
                     <li>Scaleable Website Development</li>
-                    <li><AdbIcon sx={{color: 'green'}}/>Android & IOS Mobile Development</li>
+                    <li>Android & IOS Mobile Development</li>
                     <li>Website Maintenance</li>
                     <li>Support</li>
                   </ul>
@@ -442,7 +446,7 @@ const Digital = () => {
               alignItems: "center",
             }}
           >
-          <img src={Stack} />
+            <img src={Stack} />
           </Grid>
         </Grid>
       </Grid>

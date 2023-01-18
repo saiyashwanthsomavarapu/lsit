@@ -90,11 +90,16 @@ const Home = () => {
             paddingTop: 10,
             paddingBottom: 10
         }}>
-            <Grid item xs={12} md={12} sx={{
+            <Grid item  container xs={12} md={12} sx={{
                 display: 'flex',
                 justifyContent: 'center',
                 overflow: 'hidden',
             }}>
+                {/* {banners.map((i)=>(
+                    <Grid item xs={12} lg={3}>
+                        <img src={i} width="500px"/>
+                    </Grid>
+                ))} */}
                 <Carousel banners={banners}/>
             </Grid>
         </Grid>
