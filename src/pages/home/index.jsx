@@ -77,10 +77,10 @@ const Home = () => {
                 </Typography>
             </Grid>
             <Grid item xs={12} sx={{marginTop: 5}}>
-                <Container maxWidth="md" component="main">
-                    <Grid container spacing={5} alignItems="flex-end">
+                <Container maxWidth="md" >
+                    <Grid container spacing={5} >
                         {SERVICES.map((item,key)=>(
-                            <ServiceCard content={item} key={key}/>
+                    <ServiceCard content={item} key={key}/>
                         ))}
                     </Grid>
                 </Container>

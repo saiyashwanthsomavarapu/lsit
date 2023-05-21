@@ -24,10 +24,10 @@ export const navMenu = [
           // }
         ]
     },
-    // {
-    //   label: 'Technologies',
-    //   path: "/lsit/tech"
-    // },
+    {
+      label: 'Technologies',
+      path: "lsit/services/technology"
+    },
     {
       label: 'Careers',
       path: "/lsit/careers"
@@ -65,6 +65,7 @@ export const SERVICES = [
         "LSIT is a top Global IT Staffing Service provider using cutting-edge technology to locate skilled IT specialists for a variety of companies.",
       buttonText: "Sign up for free",
       buttonVariant: "outlined",
+      redirect: "/lsit/services/staff"
     },
     {
       title: "Digital Marketing",
@@ -74,6 +75,7 @@ export const SERVICES = [
         "Efficiently aggregate end-to-end core competencies without maintainable ideas. Dynamically foster tactical solutions without enabled value.",
       buttonText: "Get started",
       buttonVariant: "contained",
+      redirect: "/lsit/services/digital"
     },
     {
       title: "Development",
@@ -82,5 +84,6 @@ export const SERVICES = [
         "Working to bring creative and transformative digital programs and experiences to every organization.",
       buttonText: "Contact us",
       buttonVariant: "outlined",
+      redirect: "/lsit/services/technology"
     }
   ];

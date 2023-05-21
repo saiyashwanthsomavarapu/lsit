@@ -257,6 +257,7 @@ const Digital = () => {
         container
         sx={{
           paddingTop: 10,
+          paddingBottom: 10,
           background: "#fafafa",
         }}
       >
@@ -367,86 +368,6 @@ const Digital = () => {
                 </Typography>
               </div>
             </div>
-          </Grid>
-        </Grid>
-      </Grid>
-      <Grid
-        container
-        sx={{
-          paddingTop: 10,
-          paddingBottom: 10,
-          background: "#fafafa",
-        }}
-      >
-        <Grid
-          item
-          container
-          xs={12}
-          md={12}
-          sx={{
-            paddingLeft: 5,
-            paddingRight: 5,
-            display: "flex",
-          }}
-        >
-          <Grid
-            item
-            xs={12}
-            md={6}
-            sx={{
-              display: "flex",
-              // justifyContent: "center",
-              overflow: "hidden",
-              flexDirection: "column",
-              padding: "10px",
-            }}
-          >
-            <div
-              style={{
-                display: "flex",
-                flexDirection: "column",
-                padding: 10,
-              }}
-            >
-              <Subheading variant="h4" sx={{ fontSize: 30 }}>
-                Technical Services
-              </Subheading>
-              <div
-                style={{
-                  paddingTop: 20,
-                  // maxHeight: 100,
-                  minHeight: 100,
-                  marginLeft: 60
-                }}
-              >
-                <Typography variant="p" style={{ fontWeight: 200, fontSize: 20 }}>
-                  <ul>
-                    <li>UX/UI Design</li>
-                    <li>Graphic Design</li>
-                    <li>Search Engine Optimization</li>
-                    <li>Scaleable Website Development</li>
-                    <li>Android & IOS Mobile Development</li>
-                    <li>Website Maintenance</li>
-                    <li>Support</li>
-                  </ul>
-                </Typography>
-              </div>
-            </div>
-          </Grid>
-          <Grid
-            item
-            xs={12}
-            md={6}
-            sx={{
-              display: "flex",
-              justifyContent: "center",
-              overflow: "hidden",
-              flexDirection: "column",
-              padding: "10px",
-              alignItems: "center",
-            }}
-          >
-            <img src={Stack} />
           </Grid>
         </Grid>
       </Grid>

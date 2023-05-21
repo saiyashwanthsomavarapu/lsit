@@ -1,5 +1,6 @@
 import { Box, Grid, List, ListItemText, Typography } from "@mui/material";
 import React from "react";
+import { Link } from "react-router-dom";
 import { FooterTitle } from "./styles";
 
 const Footer = () => {
@@ -39,72 +40,22 @@ const Footer = () => {
           <List>
             <ListItemText>
               <Typography lineHeight={2} variant="caption2">
-                About Us
+                <Link to="/about" style={{textDecoration: 'none', color: '#fff'}}>  About Us</Link>
               </Typography>
             </ListItemText>
             <ListItemText>
               <Typography lineHeight={2} variant="caption2">
-                Order Tracking
+              <Link to="/contact" style={{textDecoration: 'none', color: '#fff'}}> Contact</Link>
               </Typography>
             </ListItemText>
             <ListItemText>
               <Typography lineHeight={2} variant="caption2">
-                Privacy &amp; Policy
+              <Link to="/" style={{textDecoration: 'none', color: '#fff'}}> Privacy &amp; Policy</Link>
               </Typography>
             </ListItemText>
             <ListItemText>
               <Typography lineHeight={2} variant="caption2">
-                Terms &amp; Conditions
-              </Typography>
-            </ListItemText>
-          </List>
-        </Grid>
-        <Grid item md={6} lg={2}>
-          <FooterTitle variant="body1">my account</FooterTitle>
-          <List>
-            <ListItemText>
-              <Typography lineHeight={2} variant="caption2">
-                Login
-              </Typography>
-            </ListItemText>
-            <ListItemText>
-              <Typography lineHeight={2} variant="caption2">
-                My Cart
-              </Typography>
-            </ListItemText>
-            <ListItemText>
-              <Typography lineHeight={2} variant="caption2">
-                My Account
-              </Typography>
-            </ListItemText>
-            <ListItemText>
-              <Typography lineHeight={2} variant="caption2">
-                Wishlist
-              </Typography>
-            </ListItemText>
-          </List>
-        </Grid>
-        <Grid item md={6} lg={2}>
-          <FooterTitle variant="body1">my account</FooterTitle>
-          <List>
-            <ListItemText>
-              <Typography lineHeight={2} variant="caption2">
-                Login
-              </Typography>
-            </ListItemText>
-            <ListItemText>
-              <Typography lineHeight={2} variant="caption2">
-                My Cart
-              </Typography>
-            </ListItemText>
-            <ListItemText>
-              <Typography lineHeight={2} variant="caption2">
-                My Account
-              </Typography>
-            </ListItemText>
-            <ListItemText>
-              <Typography lineHeight={2} variant="caption2">
-                Wishlist
+              <Link to="/" style={{textDecoration: 'none', color: '#fff'}}> Terms &amp; Conditions</Link>
               </Typography>
             </ListItemText>
           </List>
